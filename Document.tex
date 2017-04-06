@@ -36,7 +36,8 @@
 \section{Execution}
 \begin{enumerate}
 \item Compile environment: g++ -o2 -std = c++11
-\item The execute commands are exactly the same as those in TA's README.  
+\item train command: ./train \$iter model\_init.txt seq\_model\_01.txt model\_01.txt.
+\item test command: ./test modellist.txt testing\_data1.txt result1.txt  
 \item \emph{run.sh} is added to simplify the whole procedure. It can easily get the test accuracy with different training iterations with the help of \emph{compute\_acc.py}.
 \item Large iteration numbers (larger than 100) may need a few minutes.
 \end{enumerate}
